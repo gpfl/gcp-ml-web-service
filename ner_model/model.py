@@ -32,15 +32,3 @@ def predict_entities(text: str) -> list:
     ]
 
     return entities
-
-
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--text", type=str)
-
-    args = parser.parse_args()
-
-    pred = predict_entities(args.text)
-
-    print(pred)
-    print(type(pred))
