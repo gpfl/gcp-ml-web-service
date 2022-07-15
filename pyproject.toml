@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "ML_model"
+name = "ner_model"
 version = "0.0.1"
 description = ""
 authors = ["gpfl <https://github.com/gpfl>"]
 packages = [
-    { include = "ML_model"},
+    { include = "ner_model"},
 ]
 
 [tool.poetry.dependencies]
